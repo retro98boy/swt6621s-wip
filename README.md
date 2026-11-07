@@ -1,7 +1,8 @@
 # swt6621s
 
 DKMS source and Debian packaging for the Seekwave SWT6621S (vs6621s) SDIO
-WiFi/BT driver stack, as used on the KickPi K2B V2 (Allwinner H618).
+WiFi/BT driver stack, as used on the KickPi K2B V2 (Allwinner H618). It can
+also be used on other boards, such as the KickPi K3B.
 
 ## Contents
 
@@ -63,7 +64,7 @@ modprobe skwbt
 ## Provenance
 
 The driver source was extracted from the vendor kernel tree shipped for the
-KickPi K2B V2 and, apart from the out-of-tree build support, is unchanged.
+KickPi K2B V2.
 The firmware blobs are redistributed as shipped by the board vendor.
 
 The driver is licensed under the GPL-2.0 (see the SPDX headers in the source
